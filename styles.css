@@ -300,6 +300,64 @@ footer {
     left: 0;
     width: 100%;
 }
+/*SIGNUP*/
+/* Signup Form Section */
+.signup-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Form Fields */
+.signup-form label {
+    display: block;
+    margin: 10px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="password"],
+.signup-form input[type="email"] {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 100%; /* Ensure input fields take up full width */
+}
+
+.signup-form input[type="text"]::placeholder,
+.signup-form input[type="password"]::placeholder,
+.signup-form input[type="email"]::placeholder {
+    color: #999; /* Placeholder text color */
+}
+
+/* Signup Button */
+.signup-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #45A049;
+    opacity: 1.0;
+}
+/* Message Box Container */
+#messageBox {
+    border: 2px solid #f9f9f9;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 20px;
+}
+
+
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
